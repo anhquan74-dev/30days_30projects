@@ -1,0 +1,98 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: linear-gradient(120deg, #3ca7ee, #9b408f);
+}
+
+.register-form {
+    width: 400px;
+    background-color: white;
+    padding: 0 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.register-form h2 {
+    font-size: 32px;
+    font-weight: 700px;
+    padding: 20px 0 0;
+}
+
+.register-form .form-control {
+    position: relative;
+    margin: 40px 0;
+}
+
+.register-form input {
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-bottom: #adadad 2px solid;
+    font-size: 16px;
+    outline: none;
+}
+
+.register-form span {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    height: 2px;
+    width: 0%;
+    background-color: #2691d9;
+    transition: all ease 0.4s;
+
+}
+
+.register-form input:focus ~ span{
+    width: 100%;
+}
+
+.register-form .signin-btn {
+    width: 100%;
+    border: none;
+    background-color: #2691d9;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.register-form .signin-btn:hover {
+    background: #08609a;
+}
+
+.register-form p {
+    color: rgb(153, 153, 153);
+    margin: 20px 0;
+}
+
+small {
+    position: absolute;
+    bottom: -22px;
+    text-align: left;
+    display: none;
+}
+
+.form-control.error small{
+    color: #e74c3c;
+
+}
+
+.form-control.error input{
+    border-bottom: 2px solid #e74c3c;
+}
