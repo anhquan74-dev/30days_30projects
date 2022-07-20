@@ -6,3 +6,4 @@
 ## 4. Image Gallery: https://anhquan74-dev.github.io/Day4-ImageGallery/
 ## 5. Search Box: https://anhquan74-dev.github.io/Day5-SearchBox/
 ## 6. Detect Pressed Key: https://anhquan74-dev.github.io/Day6-DetectPressedKey/
+## 7. Search Tag: https://anhquan74-dev.github.io/Day7-SearchTag/
